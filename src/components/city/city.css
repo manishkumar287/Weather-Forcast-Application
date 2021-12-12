@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    width:450px;
+    background-color: bisque;
+    font-family: Montserrat;
+}
+
+.container .weatherLogo img{ 
+    width: 140px;
+    height: 140px;
+
+}
+.container .searchLebel{
+    font-family: Montserrat;  
+    font-weight: bolder;
+}
+.form{
+   display: flex;
+   flex-direction: row;
+   border: black solid 1px;
+   border-radius: 2px;
+   margin: 20px auto;
+   font-weight: bold;
+
+}
+.form input{
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.form button{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    color: white;
+    background-color: cadetblue;
+    outline: none;
+    font-weight: bold;
+}

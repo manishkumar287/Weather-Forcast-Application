@@ -1,0 +1,105 @@
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    width:450px;
+    background-color: bisque;
+    font-family: Montserrat;
+}
+
+.container .weatherCondition{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px auto;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.container .weatherCondition .condition span{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.container .weatherCondition .conditionImg img{
+    width: 140px;
+    height: 140px;
+    
+}
+
+.location{
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.info{
+    text-align: left;
+    margin: 20px;
+    width: 90%;
+}
+
+.infoCont1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px auto;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+.infoCont2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px auto;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    
+}
+.cont2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    
+}
+.cont3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    
+}
+.cont4{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    
+}
+.cont1 img{
+ margin-right: 7px;
+}
+.cont2 img{
+ margin-right: 7px;
+}
+.cont3 img{
+ margin-right: 7px;
+}
+.cont4 img{
+ margin-right: 7px;
+}
